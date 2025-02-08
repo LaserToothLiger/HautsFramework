@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Gwen's Gone Mental Traits</li>
+		</mods>
+		<match Class="PatchOperationAdd"><!--gloom dweller is about hiding, so...-->
+			<xpath>/Defs/TraitDef[defName="GWT_GloomDweller"]/degreeDatas/li/statOffsets</xpath>
+			<value>
+			  <Hauts_CaravanVisibilityOffset>-0.5</Hauts_CaravanVisibilityOffset>
+			  <Hauts_TrackSize>-0.8</Hauts_TrackSize>
+			</value>
+		</match>
+	</Operation>
+</Patch>

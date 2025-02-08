@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		  <li>Vanilla Factions Expanded - Insectoids 2</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations><!--make the bosses actually tagged as bosses to immunize them against certain effects-->
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/PawnKindDef[defName="VFEI2_Empress"]/isBoss</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/PawnKindDef[defName="VFEI2_Empress"]</xpath>
+						<value>
+							<isBoss>true</isBoss>
+						</value>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/PawnKindDef[defName="VFEI2_Patriarch"]/isBoss</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/PawnKindDef[defName="VFEI2_Patriarch"]</xpath>
+						<value>
+							<isBoss>true</isBoss>
+						</value>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/PawnKindDef[defName="VFEI2_Titantick"]/isBoss</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/PawnKindDef[defName="VFEI2_Titantick"]</xpath>
+						<value>
+							<isBoss>true</isBoss>
+						</value>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/PawnKindDef[defName="VFEI2_Teramantis"]/isBoss</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/PawnKindDef[defName="VFEI2_Teramantis"]</xpath>
+						<value>
+							<isBoss>true</isBoss>
+						</value>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/PawnKindDef[defName="VFEI2_Gigamite"]/isBoss</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/PawnKindDef[defName="VFEI2_Gigamite"]</xpath>
+						<value>
+							<isBoss>true</isBoss>
+						</value>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/PawnKindDef[defName="VFEI2_Silverfish"]/isBoss</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/PawnKindDef[defName="VFEI2_Silverfish"]</xpath>
+						<value>
+							<isBoss>true</isBoss>
+						</value>
+					</nomatch>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

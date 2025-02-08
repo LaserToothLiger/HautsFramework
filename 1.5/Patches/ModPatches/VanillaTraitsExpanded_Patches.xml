@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<!--brave remains unbowed in captivity-->
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/TraitDef[defName="VTE_Brave"]</xpath>
+					<value>
+						<li Class="HautsFramework.TraitGrantedStuff">
+							<prisonerResolveFactor>
+								<li>
+									<key>0</key><value>2.5</value>
+								</li>
+							</prisonerResolveFactor>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/TraitDef[defName = "VTE_Brave"]/degreeDatas/li/description</xpath>
+					<value>
+						<description>[PAWN_nameDef] has a higher mental and physical fortitude compared to most and can more readily adapt to harsh environments in the rimworlds.\n\nIf imprisoned, [PAWN_pronoun] will be uncooperative with [PAWN_possessive] captors.</description>
+					</value>
+				</li>
+				<!--coward, ready to comply-->
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/TraitDef[defName="VTE_Coward"]</xpath>
+					<value>
+						<li Class="HautsFramework.TraitGrantedStuff">
+							<prisonerResolveFactor>
+								<li>
+									<key>0</key><value>0.5</value>
+								</li>
+							</prisonerResolveFactor>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/TraitDef[defName = "VTE_Coward"]/degreeDatas/li/description</xpath>
+					<value>
+						<description>While fully capable of warfare in theory, [PAWN_nameDef]'s fight or flight instincts heavily lean towards flight, and [PAWN_pronoun] will try to hide or run as a first priority.\n\nIf imprisoned, [PAWN_pronoun] will be quite cooperative with [PAWN_possessive] captors.</description>
+					</value>
+				</li>
+				<!--Rebel will NEVER bow to dogs like you-->
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/TraitDef[defName="VTE_Rebel"]</xpath>
+					<value>
+						<li Class="HautsFramework.TraitGrantedStuff">
+							<prisonerResolveFactor>
+								<li>
+									<key>0</key><value>2.5</value>
+								</li>
+							</prisonerResolveFactor>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/TraitDef[defName = "VTE_Rebel"]/degreeDatas/li/description</xpath>
+					<value>
+						<description>[PAWN_nameDef] only plays by their own rules, and will roll their eyes and take it easy while doing any task they've been forced to do.\n\nIf imprisoned, [PAWN_pronoun] will be uncooperative with [PAWN_possessive] captors.</description>
+					</value>
+				</li>
+				<!--Submissive submits easily-->
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/TraitDef[defName="VTE_Submissive"]</xpath>
+					<value>
+						<li Class="HautsFramework.TraitGrantedStuff">
+							<prisonerResolveFactor>
+								<li>
+									<key>0</key><value>0.5</value>
+								</li>
+							</prisonerResolveFactor>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/TraitDef[defName = "VTE_Submissive"]/degreeDatas/li/description</xpath>
+					<value>
+						<description>[PAWN_nameDef] needs clear instructions on how, and when to do certain things and will only work at a normal speed when being forced to do something.\n\nIf imprisoned, [PAWN_pronoun] will be quite cooperative with [PAWN_possessive] captors.</description>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
