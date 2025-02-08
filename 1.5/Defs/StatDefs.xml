@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<StatDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>Hauts_IdeoAbilityDurationSelf</defName>
+		<label>ideoligious ability susceptibility</label>
+		<description>A multiplier to the duration of ideoligious ability-caused mental states and health conditions on this pawn.</description>
+		<category>BasicsPawn</category>
+        <minValue>0</minValue>
+		<hideAtValue>1</hideAtValue>
+		<defaultBaseValue>1</defaultBaseValue>
+		<displayPriorityInCategory>14021</displayPriorityInCategory>
+		<toStringStyle>PercentZero</toStringStyle>
+		<showOnAnimals>false</showOnAnimals>
+		<showOnMechanoids>false</showOnMechanoids>
+		<showIfModsLoaded><li>ludeon.rimworld.ideology</li></showIfModsLoaded>
+	</StatDef>
+	<StatDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>Hauts_IdeoThoughtFactor</defName>
+		<label>ideoligious thought factor</label>
+		<description>A multiplier to ideology-caused moods' and opinions' magnitude.</description>
+		<category>BasicsPawn</category>
+		<hideAtValue>1</hideAtValue>
+		<defaultBaseValue>1</defaultBaseValue>
+		<displayPriorityInCategory>14022</displayPriorityInCategory>
+		<toStringStyle>PercentZero</toStringStyle>
+		<showOnAnimals>false</showOnAnimals>
+		<showOnMechanoids>false</showOnMechanoids>
+		<showIfModsLoaded><li>ludeon.rimworld.ideology</li></showIfModsLoaded>
+	</StatDef>
+	<StatDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>Hauts_MaxDryadFactor</defName>
+		<label>max dryad factor</label>
+		<description>A multiplier to how many dryads a connected gauranlen tree can sustain. Rounds down.</description>
+		<category>BasicsPawn</category>
+		<hideAtValue>1</hideAtValue>
+		<defaultBaseValue>1</defaultBaseValue>
+		<displayPriorityInCategory>14023</displayPriorityInCategory>
+		<toStringStyle>PercentZero</toStringStyle>
+		<showOnAnimals>false</showOnAnimals>
+		<showOnMechanoids>false</showOnMechanoids>
+		<showIfModsLoaded><li>ludeon.rimworld.ideology</li></showIfModsLoaded>
+	</StatDef>
+	<StatDef MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">
+		<defName>Hauts_PsycastFocusRefund</defName>
+		<label>psycast focus refund</label>
+		<description>On psycasting, regain this proportion of the psyfocus spent.</description>
+		<category>BasicsPawn</category>
+		<hideAtValue>0</hideAtValue>
+		<defaultBaseValue>0</defaultBaseValue>
+		<maxValue>1</maxValue>
+		<displayPriorityInCategory>14024</displayPriorityInCategory>
+		<toStringStyle>PercentZero</toStringStyle>
+		<formatString>{0} of spent psyfocus</formatString>
+		<formatStringUnfinalized>{0} of spent psyfocus</formatStringUnfinalized>
+		<showOnAnimals>false</showOnAnimals>
+		<showOnMechanoids>false</showOnMechanoids>
+		<showIfModsLoaded><li>ludeon.rimworld.royalty</li></showIfModsLoaded>
+	</StatDef>
+	<StatDef MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">
+		<defName>Hauts_PsyfocusFromFood</defName>
+		<label>psyfocus gain per nutrition</label>
+		<description>The amount of psyfocus gained per nutrition ingested.</description>
+		<category>BasicsPawn</category>
+		<hideAtValue>0</hideAtValue>
+		<defaultBaseValue>0</defaultBaseValue>
+		<displayPriorityInCategory>14025</displayPriorityInCategory>
+		<toStringStyle>PercentTwo</toStringStyle>
+		<showOnAnimals>false</showOnAnimals>
+		<showOnMechanoids>false</showOnMechanoids>
+		<showIfModsLoaded><li>ludeon.rimworld.royalty</li></showIfModsLoaded>
+	</StatDef>
+	<StatDef MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">
+		<defName>Hauts_PsyfocusGainOnKill</defName>
+		<label>psyfocus gain on kill</label>
+		<description>The amount of psyfocus gained on killing another being. The amount is multiplied by the victim's psychic sensitivity. Animal slaughter is only half as effective as humanlike slaughter.</description>
+		<category>BasicsPawn</category>
+		<hideAtValue>0</hideAtValue>
+		<defaultBaseValue>0</defaultBaseValue>
+		<displayPriorityInCategory>14026</displayPriorityInCategory>
+		<toStringStyle>PercentTwo</toStringStyle>
+		<showOnAnimals>false</showOnAnimals>
+		<showOnMechanoids>false</showOnMechanoids>
+		<showIfModsLoaded><li>ludeon.rimworld.royalty</li></showIfModsLoaded>
+	</StatDef>
+	<!--notes for other modders: .035, .055, and .075 are the amount lost per day while below 25, below 50, and above 50 percent, respectively-->
+	<StatDef MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">
+		<defName>Hauts_PsyfocusRegenRate</defName>
+		<label>psyfocus per day</label>
+		<description>The amount of psyfocus passively gained or lost per day. This includes the psyfocus decay that all psycasters experience over time while not meditating.</description>
+		<category>BasicsPawn</category>
+		<hideAtValue>0</hideAtValue>
+		<defaultBaseValue>0</defaultBaseValue>
+		<displayPriorityInCategory>14027</displayPriorityInCategory>
+		<toStringStyle>PercentTwo</toStringStyle>
+		<formatString>{0} / day</formatString>
+		<formatStringUnfinalized>{0} / day</formatStringUnfinalized>
+		<showOnAnimals>false</showOnAnimals>
+		<showOnMechanoids>false</showOnMechanoids>
+		<showIfModsLoaded><li>ludeon.rimworld.royalty</li></showIfModsLoaded>
+		<parts>
+		  <li Class="HautsFramework.StatPart_PsyfocusBand" />
+		</parts>
+	</StatDef>
+	<StatDef MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">
+		<defName>Hauts_SkipcastRangeFactor</defName>
+		<label>skipcast range factor</label>
+		<description>A multiplier to the range of "skip" psycasts used by this character. Psycasts such as Skip or Chaos Skip are skip psycasts. However, there are also several other psycasts that work off of skipgates, such as Flashstorm.</description>
+		<category>BasicsPawn</category>
+        <minValue>0</minValue>
+		<hideAtValue>1</hideAtValue>
+		<defaultBaseValue>1</defaultBaseValue>
+		<displayPriorityInCategory>14028</displayPriorityInCategory>
+		<toStringStyle>PercentZero</toStringStyle>
+		<showOnAnimals>false</showOnAnimals>
+		<showOnMechanoids>false</showOnMechanoids>
+		<showIfModsLoaded><li>ludeon.rimworld.royalty</li></showIfModsLoaded>
+	</StatDef>
+	<StatDef MayRequire="Ludeon.RimWorld.Royalty">
+		<defName>Hauts_TierOnePsycastCostOffset</defName>
+		<label>first-level psycast cost offset</label>
+		<description>If Vanilla Psycasts Expanded is in the active modlist, provides a flat offset to the amount of psyfocus needed to cast 1st-level psycasts. Otherwise, if negative, its absolute value is added to the total psyfocus cost refund of any 1st-level psycast.</description>
+		<category>BasicsPawn</category>
+		<hideAtValue>0</hideAtValue>
+		<defaultBaseValue>0</defaultBaseValue>
+		<displayPriorityInCategory>14029</displayPriorityInCategory>
+		<toStringStyle>PercentTwo</toStringStyle>
+		<showOnAnimals>false</showOnAnimals>
+		<showOnMechanoids>false</showOnMechanoids>
+		<showIfModsLoaded><li>ludeon.rimworld.royalty</li></showIfModsLoaded>
+	</StatDef>
+	<StatDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>Hauts_InstructiveAbility</defName>
+		<label>instructive ability</label>
+		<description>A multiplier to the amount of skill experience and learning conveyed to children who take lessons from or watch the work of this character.</description>
+		<category>BasicsPawn</category>
+		<hideAtValue>1</hideAtValue>
+		<defaultBaseValue>1</defaultBaseValue>
+		<displayPriorityInCategory>3202</displayPriorityInCategory>
+		<toStringStyle>PercentZero</toStringStyle>
+		<showOnAnimals>false</showOnAnimals>
+		<showIfModsLoaded><li>ludeon.rimworld.biotech</li></showIfModsLoaded>
+	</StatDef>
+	<StatDef>
+		<defName>Hauts_BoredomDropPerDay</defName>
+		<label>boredom decay</label>
+		<description>The amount of joy tolerance, or 'boredom', lost per day. This is in addition to the joy tolerance drop per day from one's expectation level.</description>
+		<category>BasicsPawn</category>
+		<hideAtValue>0</hideAtValue>
+		<defaultBaseValue>0</defaultBaseValue>
+		<displayPriorityInCategory>8789</displayPriorityInCategory>
+		<toStringStyle>PercentTwo</toStringStyle>
+		<formatString>{0} / day</formatString>
+		<formatStringUnfinalized>{0} / day</formatStringUnfinalized>
+		<showOnAnimals>false</showOnAnimals>
+		<showOnMechanoids>false</showOnMechanoids>
+		<showOnEntities>false</showOnEntities>
+		<parts>
+		  <li Class="HautsFramework.StatPart_BoredomExpectationBand" />
+		</parts>
+	</StatDef>
+	<StatDef>
+		<defName>Hauts_SkillGainFromRecreation</defName>
+		<label>skill gain from recreation</label>
+		<description>A multiplier to the skill xp gained while engaging in a joy activity.</description>
+		<category>BasicsPawn</category>
+		<hideAtValue>1</hideAtValue>
+		<defaultBaseValue>1</defaultBaseValue>
+		<displayPriorityInCategory>8791</displayPriorityInCategory>
+        <toStringStyle>PercentZero</toStringStyle>
+	</StatDef>
+	<StatDef>
+		<defName>Hauts_CaravanVisibilityOffset</defName>
+		<label>caravan visibility offset</label>
+		<description>When this pawn is added to a caravan, it adds this value to the total body size of the caravaneers for the purposes of determining caravan visibility. Negative values will reduce caravan visibility; positive values will increase it.</description>
+		<category>BasicsPawn</category>
+		<hideAtValue>0</hideAtValue>
+		<defaultBaseValue>0</defaultBaseValue>
+		<displayPriorityInCategory>8793</displayPriorityInCategory>
+		<toStringStyle>FloatTwo</toStringStyle>
+		<formatString>{0} body sizes</formatString>
+	</StatDef>
+	<StatDef>
+		<defName>Hauts_PersonalCaravanVisibilityFactor</defName>
+		<label>caravan visibility factor</label>
+		<description>A multiplier to this pawn's body size for the purposes of determining caravan visibility.</description>
+		<category>BasicsPawn</category>
+		<hideAtValue>1</hideAtValue>
+		<defaultBaseValue>1</defaultBaseValue>
+		<displayPriorityInCategory>8794</displayPriorityInCategory>
+        <toStringStyle>PercentZero</toStringStyle>
+		<formatString>{0} of own body size</formatString>
+	</StatDef>
+	<StatDef>
+		<defName>Hauts_JumpRangeFactor</defName>
+		<label>jump range factor</label>
+		<description>A multiplier to the range of jump abilities used by this character.</description>
+		<category>BasicsPawn</category>
+        <minValue>0</minValue>
+		<hideAtValue>1</hideAtValue>
+		<defaultBaseValue>1</defaultBaseValue>
+		<displayPriorityInCategory>8795</displayPriorityInCategory>
+        <toStringStyle>PercentZero</toStringStyle>
+	</StatDef>
+	<StatDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>Hauts_SpewRangeFactor</defName>
+		<label>spew range factor</label>
+		<description>A multiplier to the range of spray or spew abilities used by this character.</description>
+		<category>BasicsPawn</category>
+        <minValue>0</minValue>
+		<hideAtValue>1</hideAtValue>
+		<defaultBaseValue>1</defaultBaseValue>
+		<displayPriorityInCategory>8796</displayPriorityInCategory>
+        <toStringStyle>PercentZero</toStringStyle>
+	</StatDef>
+	<StatDef>
+		<defName>Hauts_TrackSize</defName>
+		<label>track size</label>
+		<description>Affects the amount of loose terrain (such as sand or dirt) this character tracks onto other surfaces.</description>
+		<category>BasicsPawn</category>
+		<hideAtValue>1</hideAtValue>
+		<defaultBaseValue>1</defaultBaseValue>
+		<displayPriorityInCategory>8797</displayPriorityInCategory>
+        <toStringStyle>PercentZero</toStringStyle>
+	</StatDef>
+	<StatDef MayRequire="VanillaExpanded.Recycling">
+		<defName>Hauts_RecyclingSpeed</defName>
+		<label>recycling speed</label>
+		<description>The speed at which this person recycles various forms of trash.\n\nSince recycling is dumb labor, recycling speed is not affected by any skill.</description>
+		<category>PawnWork</category>
+		<defaultBaseValue>1</defaultBaseValue>
+		<minValue>0.1</minValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<statFactors>
+		  <li>GeneralLaborSpeed</li>
+		</statFactors>
+		<displayPriorityInCategory>4291</displayPriorityInCategory>
+	</StatDef>
+	<StatDef>
+		<defName>Hauts_BreachDamageFactor</defName>
+		<label>breach damage factor</label>
+		<description>A multiplier to the amount of damage dealt to buildings.</description>
+		<category>PawnCombat</category>
+        <minValue>0</minValue>
+		<hideAtValue>1</hideAtValue>
+		<defaultBaseValue>1</defaultBaseValue>
+		<displayPriorityInCategory>15070</displayPriorityInCategory>
+        <toStringStyle>PercentTwo</toStringStyle>
+		<showOnAnimals>false</showOnAnimals>
+		<showOnMechanoids>false</showOnMechanoids>
+		<skillNeedOffsets>
+		  <li Class="HautsFramework.SkillNeed_BaseBonusBDF">
+			<skill>Construction</skill>
+			<baseValue>0</baseValue>
+			<bonusPerLevel>0.015</bonusPerLevel>
+			<required>false</required>
+		  </li>
+		</skillNeedOffsets>
+	</StatDef>
+	<StatDef MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>Hauts_EntityDamageFactor</defName>
+		<label>anti-entity damage factor</label>
+		<description>A multiplier to the amount of damage dealt to unnatural entities.</description>
+		<category>PawnCombat</category>
+        <minValue>0</minValue>
+		<hideAtValue>1</hideAtValue>
+		<defaultBaseValue>1</defaultBaseValue>
+		<displayPriorityInCategory>15071</displayPriorityInCategory>
+        <toStringStyle>PercentTwo</toStringStyle>
+		<showOnAnimals>false</showOnAnimals>
+		<showOnMechanoids>false</showOnMechanoids>
+	</StatDef>
+	<StatDef>
+        <defName>Hauts_MeleeArmorPenetration</defName>
+        <label>melee armor penetration factor</label>
+        <description>A multiplier on melee armor penetration.</description>
+		<category>PawnCombat</category>
+        <minValue>0</minValue>
+        <hideAtValue>1</hideAtValue>
+        <defaultBaseValue>1</defaultBaseValue>
+		<displayPriorityInCategory>15072</displayPriorityInCategory>
+        <toStringStyle>PercentTwo</toStringStyle>
+    </StatDef>
+	<StatDef>
+        <defName>Hauts_RangedArmorPenetration</defName>
+        <label>ranged armor penetration factor</label>
+        <description>A multiplier on ranged armor penetration.</description>
+		<category>PawnCombat</category>
+        <minValue>0</minValue>
+        <hideAtValue>1</hideAtValue>
+        <defaultBaseValue>1</defaultBaseValue>
+		<displayPriorityInCategory>15073</displayPriorityInCategory>
+        <toStringStyle>PercentTwo</toStringStyle>
+    </StatDef>
+</Defs>

@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Hauts Framework\1.5\Mods\VFE_Insectoids2\Assemblies\HautsFramework_VFEInsectoids2.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Hauts Framework\1.5\Mods\VFE_Insectoids2\Source\HautsFramework_VFEInsectoids2\obj\Debug\HautsFramework_VFEInsectoids2.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Hauts Framework\1.5\Mods\VFE_Insectoids2\Source\HautsFramework_VFEInsectoids2\obj\Debug\HautsFramework_VFEInsectoids2.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Hauts Framework\1.5\Mods\VFE_Insectoids2\Source\HautsFramework_VFEInsectoids2\obj\Debug\HautsFramework_VFEInsectoids2.dll

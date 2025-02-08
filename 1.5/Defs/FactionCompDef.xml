@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HautsFramework.Hauts_FactionCompDef>
+    <defName>Hauts_FCHolder</defName>
+    <comps>
+	  <!--add comps via xpath here-->
+	  <li Class="HautsFramework.HautsFactionCompProperties_SpyPoints">
+		<spyPoints>0</spyPoints>
+	  </li>
+    </comps>
+  </HautsFramework.Hauts_FactionCompDef>
+</Defs>

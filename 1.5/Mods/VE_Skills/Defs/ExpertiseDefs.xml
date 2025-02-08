@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <VSE.Expertise.ExpertiseDef>
+    <defName>Hauts_Demolisher</defName>
+    <label>Demolition</label>
+    <skill>Construction</skill>
+    <description>An expertise in taking apart buildings.</description>
+    <statOffsets>
+      <Hauts_BreachDamageFactor>0.05</Hauts_BreachDamageFactor>
+    </statOffsets>
+  </VSE.Expertise.ExpertiseDef>
+  <VSE.Expertise.ExpertiseDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>Hauts_GauranlenExpert</defName>
+    <label>Gautending</label>
+    <skill>Animals</skill>
+    <description>An expertise in supporting dryads from tended Gauranlen trees.</description>
+    <statOffsets>
+      <Hauts_MaxDryadFactor>0.05</Hauts_MaxDryadFactor>
+    </statOffsets>
+  </VSE.Expertise.ExpertiseDef>
+  <VSE.Expertise.ExpertiseDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>Hauts_GauranlenExpert2</defName>
+    <label>Gauscaping</label>
+    <skill>Plants</skill>
+    <description>An expertise in supporting dryads from tended Gauranlen trees.</description>
+    <statOffsets>
+      <Hauts_MaxDryadFactor>0.05</Hauts_MaxDryadFactor>
+    </statOffsets>
+  </VSE.Expertise.ExpertiseDef>
+  <VSE.Expertise.ExpertiseDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>Hauts_Teacher</defName>
+    <label>Teaching</label>
+    <skill>Intellectual</skill>
+    <description>An expertise in educating children.</description>
+    <statOffsets>
+      <Hauts_InstructiveAbility>0.05</Hauts_InstructiveAbility>
+    </statOffsets>
+  </VSE.Expertise.ExpertiseDef>
+  <VSE.Expertise.ExpertiseDef MayRequire="VanillaExpanded.Recycling">
+    <defName>Hauts_Recycler</defName>
+    <label>Recycling</label>
+    <skill>Crafting</skill>
+    <description>An expertise in the recycling of pollution and its byproducts.</description>
+    <statOffsets>
+      <Hauts_RecyclingSpeed>0.05</Hauts_RecyclingSpeed>
+    </statOffsets>
+  </VSE.Expertise.ExpertiseDef>
+</Defs>
