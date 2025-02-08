@@ -15,3 +15,4 @@ Safe to add mid-playthrough; do not remove mid-playthrough.
 You don't need the following mods, but if you have them, they must go...
 * Above Hauts’ Framework: Cybernetic Organism and Neural Network, Vanilla Psycasts Expanded.
 * Below Hauts’ Framework: Integrated Implants, as well as any Hauts' mods.
+ (Pressing the auto-sort button in the in-game Mods tab will handle this for you)
