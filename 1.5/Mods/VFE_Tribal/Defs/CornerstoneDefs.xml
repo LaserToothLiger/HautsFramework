@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <VFETribals.CornerstoneDef>
+	<defName>Hauts_TravelersInSilence</defName>
+	<label>Travelers in Silence</label>
+	<description>Caravan visibility is reduced by 15%.</description>
+	<blurb>The people of {0} chart the safest and most hidden routes, and know never to make a sound when traveling.</blurb>
+	<statFactors>
+		<Hauts_PersonalCaravanVisibilityFactor>0.85</Hauts_PersonalCaravanVisibilityFactor>
+	</statFactors>
+  </VFETribals.CornerstoneDef>
+  <VFETribals.CornerstoneDef>
+	<defName>Hauts_AgentsOfRuin</defName>
+	<label>Agents of Ruin</label>
+	<description>Damage against buildings is increased by 20%.</description>
+	<blurb>The warriors of {0} are trained in identifying structural weakpoints, enabling them to demolish buildings with ease.</blurb>
+	<statOffsets>
+		<Hauts_BreachDamageFactor>0.2</Hauts_BreachDamageFactor>
+	</statOffsets>
+  </VFETribals.CornerstoneDef>
+  <VFETribals.CornerstoneDef MayRequire="Ludeon.RimWorld.Ideology">
+	<defName>Hauts_ReverentDevotees</defName>
+	<label>Reverent Devotees</label>
+	<description>Ideoligious moods and opinions are 25% stronger.</description>
+	<blurb>The people of {0} extol the virtues of their ideoligious teachings.</blurb>
+	<statOffsets>
+		<Hauts_IdeoThoughtFactor>0.25</Hauts_IdeoThoughtFactor>
+	</statOffsets>
+  </VFETribals.CornerstoneDef>
+  <VFETribals.CornerstoneDef MayRequire="Ludeon.RimWorld.Ideology">
+	<defName>Hauts_ZealotsOfFaith</defName>
+	<label>Zealots of the Faith</label>
+	<description>The effects of ideoligious abilities last 10% longer.</description>
+	<blurb>The inhabitants of {0} are exceptionally vulnerable to psychological manipulation when presented with an ideoligious bent; the effects of ideoligious abilities last longer on them.</blurb>
+	<statFactors>
+		<Hauts_IdeoAbilityDurationSelf>1.1</Hauts_IdeoAbilityDurationSelf>
+	</statFactors>
+  </VFETribals.CornerstoneDef>
+  <VFETribals.CornerstoneDef MayRequire="Ludeon.RimWorld.Ideology">
+	<defName>Hauts_CousinsOfDryads</defName>
+	<label>Cousins of the Dryads</label>
+	<description>Gauranlen trees can produce 25% more dryads.</description>
+	<blurb>The {0} revere the symbiosis between human and dryad, tending them with more care and enabling dryad populations to bloom.</blurb>
+	<statFactors>
+		<Hauts_MaxDryadFactor>1.25</Hauts_MaxDryadFactor>
+	</statFactors>
+  </VFETribals.CornerstoneDef>
+  <VFETribals.CornerstoneDef MayRequire="Ludeon.RimWorld.Royalty">
+	<defName>Hauts_TenetsOfPower</defName>
+	<label>Tenets of Power</label>
+	<description>Psycasters regenerate 1% psyfocus each day.</description>
+	<blurb>Secrets gleaned from observing the anima trees are shared among {0}, allowing their psycasters to cultivate a fraction of the mystic energies within themselves.</blurb>
+	<statFactors>
+		<Hauts_PsyfocusRegenRate>0.01</Hauts_PsyfocusRegenRate>
+	</statFactors>
+  </VFETribals.CornerstoneDef>
+  <VFETribals.CornerstoneDef MayRequire="Ludeon.RimWorld.Anomaly">
+	<defName>Hauts_DemonSlayers</defName>
+	<label>Demon Slayers</label>
+	<description>Damage against unnatural entities is increased by 20%.</description>
+	<blurb>{0} know the weaknesses of the horrid monsters from the black ocean, and are therefore more adept at sending them back to the Void.</blurb>
+	<statFactors>
+		<Hauts_EntityDamageFactor>0.2</Hauts_EntityDamageFactor>
+	</statFactors>
+  </VFETribals.CornerstoneDef>
+</Defs>
