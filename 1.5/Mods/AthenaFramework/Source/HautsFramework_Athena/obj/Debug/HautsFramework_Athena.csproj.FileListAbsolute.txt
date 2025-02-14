@@ -1,4 +1,0 @@
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Hauts Framework\1.4\Mods\AthenaFramework\Assemblies\HautsFramework_Athena.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Hauts Framework\1.4\Mods\AthenaFramework\Source\HautsFramework_Athena\obj\Debug\HautsFramework_Athena.csproj.AssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Hauts Framework\1.4\Mods\AthenaFramework\Source\HautsFramework_Athena\obj\Debug\HautsFramework_Athena.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Hauts Framework\1.4\Mods\AthenaFramework\Source\HautsFramework_Athena\obj\Debug\HautsFramework_Athena.dll
