@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <IncidentDef>
+    <defName>Hauts_InvestmentReturn</defName>
+	<workerClass>HautsFramework.IncidentWorker_MultiplyItemStackDelay</workerClass>
+    <category>Special</category>
+    <baseChance>0</baseChance>
+	<targetTags>
+      <li>Map_PlayerHome</li>
+      <li>Map_TempIncident</li>
+      <li>Map_Misc</li>
+      <li>Map_RaidBeacon</li>
+      <li>Caravan</li>
+    </targetTags>
+    <letterText>bluh bluh</letterText>
+	<hidden>true</hidden>
+    <letterDef>NeutralEvent</letterDef>
+    <ignoreRecentSelectionWeighting>true</ignoreRecentSelectionWeighting>
+  </IncidentDef>
+  
+</Defs>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch><!--Despite using skipgates, none of these abilities are categorized as skip abilities. That needs to be fixed so Skip Range Factor works on them-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Cooler Psycasts</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAttributeSet"><!--wait, actually this one is unncessary. whatever, I typed it already-->
+					<xpath>/Defs/AbilityDef[defName="CoolPsycasts_InduceRain"]</xpath>
+					<attribute>ParentName</attribute>
+					<value>PsycastBaseSkip</value>
+				</li>
+				<li Class="PatchOperationAttributeSet">
+					<xpath>/Defs/AbilityDef[defName="CoolPsycasts_OrganSkip"]</xpath>
+					<attribute>ParentName</attribute>
+					<value>PsycastBaseSkip</value>
+				</li>
+				<li Class="PatchOperationAttributeSet">
+					<xpath>/Defs/AbilityDef[defName="CoolPsycasts_Meteor"]</xpath>
+					<attribute>ParentName</attribute>
+					<value>PsycastBaseSkip</value>
+				</li>
+				<li Class="PatchOperationAttributeSet">
+					<xpath>/Defs/AbilityDef[defName="CoolPsycasts_Portal"]</xpath>
+					<attribute>ParentName</attribute>
+					<value>PsycastBaseSkip</value>
+				</li>
+				<li Class="PatchOperationAttributeSet">
+					<xpath>/Defs/AbilityDef[defName="CoolPsycasts_GravityPulse"]</xpath>
+					<attribute>ParentName</attribute>
+					<value>PsycastBaseSkip</value>
+				</li>
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Combat Extended</li>
+					</mods>
+					<nomatch Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationAttributeSet">
+								<xpath>/Defs/AbilityDef[defName="CoolPsycasts_MassReflect"]</xpath>
+								<attribute>ParentName</attribute>
+								<value>PsycastBaseSkip</value>
+							</li>
+						</operations>
+					</nomatch>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>More Psycasts (Continued)</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAttributeSet">
+					<xpath>/Defs/AbilityDef[defName="MorePsycasts_Entomb"]</xpath>
+					<attribute>ParentName</attribute>
+					<value>PsycastBaseSkip</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Sleepy's More Psycasts</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<!--Arctic Pinhole needs to be a skip psycast-->
+				<li Class="PatchOperationAttributeSet">
+					<xpath>/Defs/AbilityDef[defName="SLP_PSY_ArcticPinhole"]</xpath>
+					<attribute>ParentName</attribute>
+					<value>PsycastBaseSkip</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

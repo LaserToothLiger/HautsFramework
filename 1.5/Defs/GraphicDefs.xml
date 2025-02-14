@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="MoteGlowDistorted">
+	<defName>Hauts_DefaultAuraGraphic</defName>
+	<thingClass>HautsFramework.MoteThrownAttached_Aura</thingClass>
+	<altitudeLayer>Projectile</altitudeLayer>
+	<mote>
+	  <fadeInTime>0.3</fadeInTime>
+	  <fadeOutTime>0.1</fadeOutTime>
+	  <solidTime>9999</solidTime>
+	  <!--<realTime>true</realTime>-->
+	  <needsMaintenance>true</needsMaintenance>
+	</mote>
+	<graphicData>
+	  <graphicClass>Graphic_Mote</graphicClass>
+	  <texPath>Other/ShieldBubble</texPath>
+	  <shaderType>Transparent</shaderType>
+	  <color>(1,1,1,1)</color>
+	  <drawSize>1</drawSize>
+	  <shaderParameters>
+		<_DistortionTex>/Other/Ripples</_DistortionTex>
+		<_distortionIntensity>0.05</_distortionIntensity>
+		<_DistortionScale>0.4</_DistortionScale>
+		<_distortionScrollSpeed>(0.07, 0.07, 0.0)</_distortionScrollSpeed>
+	  </shaderParameters>
+	</graphicData>
+  </ThingDef>
+  
+  
+	  <EffecterDef>
+		<defName>Hauts_ToxThornsMist</defName>
+		<maintainTicks>40</maintainTicks>
+		<children>
+		  <li>
+			<subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+			<fleckDef>Hauts_ToxThornsNoise</fleckDef>
+			<burstCount>1~2</burstCount>
+			<spawnLocType>OnSource</spawnLocType>
+			<positionRadius>.75</positionRadius>
+			<positionOffset>(0, 0, 0)</positionOffset>
+			<scale>4~10</scale>
+			<angle>0~360</angle>
+			<fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+			<absoluteAngle>false</absoluteAngle>
+			<rotationRate>30~50</rotationRate>
+			<rotation>0</rotation>
+			<speed>-3~3</speed>
+		  </li>
+		</children>
+	  </EffecterDef>
+	  <FleckDef ParentName="FleckBase_Thrown">
+		<defName>Hauts_ToxThornsNoise</defName>
+		<graphicData>
+		  <texPath>Things/Mote/WaterChurnNoise</texPath>
+		  <renderInstanced>true</renderInstanced>
+		  <shaderParameters>
+			<_Color2>(0.39, 0.56, 0, 0.6)</_Color2>
+		  </shaderParameters>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0.04</fadeInTime>
+		<solidTime>1</solidTime>
+		<fadeOutTime>2</fadeOutTime>
+	  </FleckDef>
+</Defs>
