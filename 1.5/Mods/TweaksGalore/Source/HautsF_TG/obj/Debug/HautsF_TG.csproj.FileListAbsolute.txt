@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Hauts Framework\1.5\Mods\TweaksGalore\Assemblies\HautsF_TG.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Hauts Framework\1.5\Mods\TweaksGalore\Source\HautsF_TG\obj\Debug\HautsF_TG.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Hauts Framework\1.5\Mods\TweaksGalore\Source\HautsF_TG\obj\Debug\HautsF_TG.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Hauts Framework\1.5\Mods\TweaksGalore\Source\HautsF_TG\obj\Debug\HautsF_TG.dll

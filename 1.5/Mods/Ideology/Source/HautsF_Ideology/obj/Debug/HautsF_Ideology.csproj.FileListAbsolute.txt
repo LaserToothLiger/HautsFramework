@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Hauts Framework\1.5\Mods\Ideology\Assemblies\HautsF_Ideology.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Hauts Framework\1.5\Mods\Ideology\Source\HautsF_Ideology\obj\Debug\HautsF_Ideology.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Hauts Framework\1.5\Mods\Ideology\Source\HautsF_Ideology\obj\Debug\HautsF_Ideology.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Hauts Framework\1.5\Mods\Ideology\Source\HautsF_Ideology\obj\Debug\HautsF_Ideology.dll

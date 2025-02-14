@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Hauts Framework\1.5\Mods\Anomaly\Assemblies\Hauts_Anomaly.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Hauts Framework\1.5\Mods\Anomaly\Source\Hauts_Anomaly\obj\Debug\Hauts_Anomaly.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Hauts Framework\1.5\Mods\Anomaly\Source\Hauts_Anomaly\obj\Debug\Hauts_Anomaly.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Hauts Framework\1.5\Mods\Anomaly\Source\Hauts_Anomaly\obj\Debug\Hauts_Anomaly.dll
