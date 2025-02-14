@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+<!--Initialization-->
+<Hauts_Initialize>[Hauts' Framework] active.</Hauts_Initialize>
+<!--Mod options-->
+<Hauts_SettingBDFC>Construction skill affects damage vs buildings</Hauts_SettingBDFC>
+<Hauts_TooltipBDFC>If enabled, grants +1.5% breach damage factor per level of construction skill.</Hauts_TooltipBDFC>
+<!--UI-->
+<Hauts_AbilityNeedsHigherStatToUse>Requires at least {0} {1}.</Hauts_AbilityNeedsHigherStatToUse>
+<HVT_JumpRangeFactorScalar>Jump range factor</HVT_JumpRangeFactorScalar>
+<Hauts_AuraTooltip>Aura radius: {0} cells</Hauts_AuraTooltip>
+<Hauts_ACMtooltip>Affected abilities' cooldowns elapse {0} faster.</Hauts_ACMtooltip>
+<Hauts_GRMtooltip>Grants {0} max {1}.</Hauts_GRMtooltip>
+<Hauts_GRMtooltip2>{0} takes {1} longer to drain.</Hauts_GRMtooltip2>
+<Hauts_GTRtooltip>Random thought MTB: {0} days</Hauts_GTRtooltip>
+<Hauts_GivesTraitTooltip>Inflicts the {0} trait.</Hauts_GivesTraitTooltip>
+<Hauts_ExtraHitFXPrefixChance>{0} chance to inflict the following effects on dealing at least {1} damage to victims </Hauts_ExtraHitFXPrefixChance>
+<Hauts_ExtraHitFXPrefixAlways>Inflicts the following effects on dealing at least {0} damage to victims </Hauts_ExtraHitFXPrefixAlways>
+<Hauts_ExtraHitFXRange>within {0} range </Hauts_ExtraHitFXRange>
+<Hauts_ExtraHitFXPrefixCD>(cooldown {0} ticks):\n</Hauts_ExtraHitFXPrefixCD>
+<Hauts_ExtraHitFXPrefixCDVariable>(cooldown {0} to {1} ticks):\n</Hauts_ExtraHitFXPrefixCDVariable>
+<Hauts_ExtraHitFXPrefixNoCD>(no cooldown):\n</Hauts_ExtraHitFXPrefixNoCD>
+<Hauts_ExtraHitFXPurge>Remove the {0} condition\n</Hauts_ExtraHitFXPurge>
+<Hauts_ExtraHitFXPurgePartial>Remove {0} points of the {1} condition\n</Hauts_ExtraHitFXPurgePartial>
+<Hauts_ExtraHitFXPurgePartialVariable>Remove {0} points of the {1} condition\n</Hauts_ExtraHitFXPurgePartialVariable>
+<Hauts_ExtraHitFXMoreDmg>{0} {1} damage\n</Hauts_ExtraHitFXMoreDmg>
+<Hauts_ExtraHitFXMoreDmgChance>{0} chance to deal {1} {2} damage\n</Hauts_ExtraHitFXMoreDmgChance>
+<Hauts_ExtraHitFXStun>Stun for a base of {0} ticks\n</Hauts_ExtraHitFXStun>
+<Hauts_ExtraHitFXDebuff>Inflict {0} points of {1}\n</Hauts_ExtraHitFXDebuff>
+<Hauts_ExtraHitFXInspireAny>Inflict an inspiration\n</Hauts_ExtraHitFXInspireAny>
+<Hauts_ExtraHitFXInspireList>Inflict one of the following inspirations: </Hauts_ExtraHitFXInspireList>
+<Hauts_ExtraHitFXMBAny>Inflict a mental state\n</Hauts_ExtraHitFXMBAny>
+<Hauts_ExtraHitFXMBList>Inflict one of the following mental states: </Hauts_ExtraHitFXMBList>
+<Hauts_ExtraHitFXListicle>{0} ({1} weight) </Hauts_ExtraHitFXListicle>
+<Hauts_ExtraHitFXStunVariable>Stun for a base of {0} to {1} ticks\n</Hauts_ExtraHitFXStunVariable>
+<Hauts_ExtraHitFXScalars>Scales with:</Hauts_ExtraHitFXScalars>
+<Hauts_ExtraHitFXScaleAttacker> attacker's {0}</Hauts_ExtraHitFXScaleAttacker>
+<Hauts_ExtraHitFXScaleVictim> victim's {0}</Hauts_ExtraHitFXScaleVictim>
+<Hauts_ExtraHitFXScaleDmgDealt> damage dealt by triggering hit</Hauts_ExtraHitFXScaleDmgDealt>
+<Hauts_ExtraHitFXSuffix>Doesn't affect</Hauts_ExtraHitFXSuffix>
+<Hauts_ExtraHitFXSuffix2A> animals</Hauts_ExtraHitFXSuffix2A>
+<Hauts_ExtraHitFXSuffixF> non-hostiles</Hauts_ExtraHitFXSuffixF>
+<Hauts_ExtraHitFXSuffixH> hostiles</Hauts_ExtraHitFXSuffixH>
+<Hauts_ExtraHitFXSuffix2H> humanlikes</Hauts_ExtraHitFXSuffix2H>
+<Hauts_ExtraHitFXSuffix2M> mechs</Hauts_ExtraHitFXSuffix2M>
+<Hauts_ExtraHitFXSuffix2Mu> anomaly-mutated creatures</Hauts_ExtraHitFXSuffix2Mu>
+<Hauts_ExtraHitFXSuffix2E> unnatural entities</Hauts_ExtraHitFXSuffix2E>
+<Hauts_GotInspiredOnHit>{0} gained an inspiration due to the {1} on-hit effect.</Hauts_GotInspiredOnHit>
+<Hauts_GotMBOnHit>The {0} on-hit effect is responsible.</Hauts_GotMBOnHit>
+<Hauts_SkillAdjustmentTooltip>Grants {0} {1} xp per day</Hauts_SkillAdjustmentTooltip>
+<Hauts_StatWorkerPsyfocusBand>From current psyfocus band</Hauts_StatWorkerPsyfocusBand>
+<Hauts_StatWorkerExpectationLevel>From current expectation level</Hauts_StatWorkerExpectationLevel>
+<Hauts_TilNextSpawn>\n{0}/{1} charge</Hauts_TilNextSpawn>
+<Hauts_TilNextSpawnCountdown>\n{0} hours to next spawn</Hauts_TilNextSpawnCountdown>
+<Hauts_ChargesStored>\n{0}/{1} charges stored</Hauts_ChargesStored>
+<Hauts_LacksAnyAffectedNeed>target lacks any needs affected by the ability</Hauts_LacksAnyAffectedNeed>
+<Hauts_PairPrefix>Paired with: </Hauts_PairPrefix>
+<Hauts_PairedWithHediff>\n{0} on {1}</Hauts_PairedWithHediff>
+<Hauts_PairedWithOther>\n{0}</Hauts_PairedWithOther>
+<Hauts_BFDDestroyedMetalhorror>A bioferrite-destabilizing effect within {PAWN_nameDef} destroyed a recently acquired metalhorror parasite. The destabilizer has been burnt out in the process.</Hauts_BFDDestroyedMetalhorror>
+<Hauts_BFDDestroyedMetalhorror2>A bioferrite-destabilizing effect within {PAWN_nameDef} destroyed a recently acquired metalhorror parasite.</Hauts_BFDDestroyedMetalhorror2>
+<Hauts_BFDDestroyedMutation>A bioferrite-destabilizing effect within {PAWN_nameDef} broke down {PAWN_possessive} mutated biomatter.</Hauts_BFDDestroyedMutation>
+<Hauts_BFDBlockedGhoulizing>A bioferrite-destabilizing effect within {PAWN_nameDef} caused the ghoulizing process to fail. All used resources were wasted.</Hauts_BFDBlockedGhoulizing>
+<Hauts_MetalhorrorReasonBFD>{INFECTED_nameDef}'s metalhorror emerged due to a botched infection attempt.</Hauts_MetalhorrorReasonBFD>
+<Hauts_MessagePermitBoostCaravan>{FACTION_name} has provided assistance for {PAWN_nameDef}'s caravan.</Hauts_MessagePermitBoostCaravan>
+<Hauts_IdeoBookConversion>Base conversion power to {0}: {1}/hour</Hauts_IdeoBookConversion>
+<Hauts_IdeoBookCertainty>Base certainty restoration for {0}: {1}/hour</Hauts_IdeoBookCertainty>
+<Hauts_IdeoBookOffendChance>Chance to offend non-believer: {0}</Hauts_IdeoBookOffendChance>
+<Hauts_IdeoBookMemeList>{0} ({1}) contains these memes: </Hauts_IdeoBookMemeList>
+<Hauts_LetterConvertIdeoBook_Success>Reading {0} has caused {1} to turn away from {2} and towards {3}.</Hauts_LetterConvertIdeoBook_Success>
+<!--Error messages-->
+<Hauts_CantSpawnUnminified>Cannot add {0} to inventory of {1} because it is not haulable.</Hauts_CantSpawnUnminified>
+<Hauts_CannotRemoveBionicsFrom>Body parts cannot be removed from {0} due to the {1} trait.</Hauts_CannotRemoveBionicsFrom>
+<Hauts_PacifistWWeapon>{PAWN_nameDef} spawned with a weapon, yet also has a trait that disables violence. Removing the trait to prevent invalid combat calculations. If this would have been {PAWN_possessive} only trait, {PAWN_pronoun} will now have no traits.</Hauts_PacifistWWeapon>
+<Hauts_TargetAlreadyHasPairedHediff>target already affected by this ability</Hauts_TargetAlreadyHasPairedHediff>
+<Hauts_MustBeCaravanning>Only usable on a caravan</Hauts_MustBeCaravanning>
+<Hauts_PMEMisconfig>Permit is of a type that requires PermitMoreEffects, but there isn't one in its definition</Hauts_PMEMisconfig>
+<!--Devmode-->
+<HVT_CharEditFixer>DEV: Fix TraitGrantedStuff</HVT_CharEditFixer>
+<HVT_CharEditFixerDesc>Adds any missing hediffs or abilities to this pawn which should've been granted by its traits. The presence of this button does not necessarily mean that there are any missing hediffs or abilities.\n\nIf you're using Character Editor to add traits to pawns, make sure to press this on the pawn immediately afterward.</HVT_CharEditFixerDesc>
+</LanguageData>
