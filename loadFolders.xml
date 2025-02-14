@@ -2,6 +2,7 @@
 	<v1.5>
 		<li>/</li>
 		<li>1.5</li>
+		<li IfModActive="Ludeon.RimWorld.Ideology">1.5/Mods/Ideology</li>
 		<li IfModActive="Ludeon.RimWorld.Biotech">1.5/Mods/Biotech</li>
 		<li IfModActive="Ludeon.RimWorld.Anomaly">1.5/Mods/Anomaly</li>
 		<li IfModActive="smartkar.athenaframework">1.5/Mods/AthenaFramework</li>
