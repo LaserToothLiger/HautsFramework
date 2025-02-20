@@ -1,3 +1,4 @@
+OUTDATED
 This is a RimWorld mod, as available on Steam at https://steamcommunity.com/sharedfiles/filedetails/?id=3422815711
 
 As a framework, it does not add front-end content for players. However, it contains many modding tools.
